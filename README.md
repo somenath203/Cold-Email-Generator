@@ -17,3 +17,7 @@ The Cold Email Generator is a web application designed to help job seekers creat
 - **ChatGroq (LLaMA-3.1-70B)**: The language model used to generate personalized cold emails.
 - **BeautifulSoup**: Employed for web scraping to extract content from the job post URL.
 - **Python-dotenv**: Used to manage environment variables securely.
+
+## Disclaimer
+
+The creator of this application is not responsible for any incorrect content created as LLaMA-3.1-70B's functioning is beyond the creator's control.

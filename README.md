@@ -2,6 +2,8 @@
 
 ## Demo video of the project
 
+ ![Screenshot (699)](https://github.com/user-attachments/assets/25d18317-2a50-4d53-96b0-ff9618404309)
+ 
 https://www.youtube.com/watch?v=ji9AfqqClrA
 
 ## Introduction

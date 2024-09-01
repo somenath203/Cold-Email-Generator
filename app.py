@@ -65,6 +65,7 @@ job_post_url_input = st.text_input('Enter the URL of the Job Post')
 user_profile_description = st.text_area('Please provide a brief introduction about yourself, highlighting your key skills. Additionally, list 2 to 3 projects you\'ve worked on, giving a brief overview of each.', height=300)
 
 
+
 if st.button('Generate Cold Email'):
 
     if job_post_url_input == "" or user_profile_description == "":
@@ -77,4 +78,12 @@ if st.button('Generate Cold Email'):
 
         generate_cold_email_for_job_post = generate_cold_email(extracted_content_from_url, user_profile_description)
 
-        st.markdown(generate_cold_email_for_job_post)
+        if generate_cold_email_for_job_post:
+
+            st.success('cold email generated successfully')
+
+            st.markdown(generate_cold_email_for_job_post)
+
+            st.write()
+
+            st.write('**Feel free to edit this generated email as your wish.**')

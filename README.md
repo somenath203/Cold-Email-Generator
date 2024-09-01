@@ -1,5 +1,9 @@
 # Cold Email Generator
 
+## Demo video of the project
+
+https://www.youtube.com/watch?v=ji9AfqqClrA
+
 ## Introduction
 
 The Cold Email Generator is a web application designed to help job seekers create personalized cold emails tailored to specific job postings. By providing the URL of a job post and a brief description of your skills and experience, the application automatically generates a well-crafted email to increase your chances of securing an interview.

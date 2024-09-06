@@ -62,7 +62,7 @@ st.title('📧 Cold E-Mail Generator')
 
 job_post_url_input = st.text_input('Enter the URL of the Job Post')
 
-user_profile_description = st.text_area('Please provide a brief introduction about yourself, highlighting your key skills. Additionally, list 2 to 3 projects you\'ve worked on, giving a brief overview of each.', height=300)
+user_profile_description = st.text_area('please provide a brief introduction about yourself, highlighting your key skills and additionally, list 2 to 3 projects you\'ve worked on, giving a brief overview of each', height=300)
 
 
 
